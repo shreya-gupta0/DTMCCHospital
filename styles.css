@@ -1,0 +1,266 @@
+body,
+html {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.mainhouse {
+  /* padding: 10px; */
+  border-bottom: 1px solid black;
+}
+.cont {
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.df {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 70px;
+}
+.logo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 20px;
+}
+.search-container {
+  width: 300px;
+  color: black;
+  border: 2px solid #ccc;
+  border-radius: 50px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  border-radius: 20px 0px 0px 20px;
+}
+.search-icon {
+  height: 30px;
+  width: 30px;
+  border: 0px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #7c3996;
+  border-radius: 50%;
+  margin-inline: 4px;
+}
+
+.appointment {
+  background-color: #5d316e;
+  color: white;
+  border: 0px;
+  padding: 9px 15px;
+  border-radius: 5px;
+}
+
+.phone {
+  background-color: #5d316e;
+  border: 0;
+}
+
+.emergency {
+  background-color: #15a8a1;
+  color: white;
+  border: 0px;
+  padding: 9px 15px;
+  border-radius: 5px;
+}
+
+.user {
+  background-color: white;
+  box-shadow: 0px 0px 4px grey;
+  border: 0px;
+  border-radius: 50%;
+  padding: 10px 13px;
+}
+
+.list li {
+  display: inline;
+  align-content: center;
+}
+hr {
+  margin: 0;
+}
+
+.nav2 {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+.nav2 .dropdown {
+  position: relative;
+}
+.nav2 button {
+  font-size: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.nav2 button::after {
+  content: "\f078"; /* Font Awesome down arrow */
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 12px;
+}
+.nav2 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.nav2 ul li {
+  padding: 5px 10px;
+  white-space: nowrap;
+}
+.nav2 .dropdown:hover ul {
+  display: block;
+}
+.nav2 a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+}
+
+.dv3 {
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px;
+  padding: 10px; */
+  /* width: 90%; */
+  height: 150px;
+  margin-top: 40px;
+}
+
+.card {
+  width: 165px;
+  height: 100px;
+  padding: 15px;
+  text-align: center;
+  margin-right: 30px;
+  margin-left: 40px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.icon {
+  font-size: 40px;
+  color: #333;
+  padding: 10px;
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.text:hover {
+  text-decoration: underline;
+}
+
+.card2 {
+  width: 165px;
+  height: 100px;
+  padding: 15px;
+  text-align: center;
+  margin-left: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+.icon {
+  font-size: 40px;
+  color: #333;
+  padding: 10px;
+}
+
+.text {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+.text:hover {
+  text-decoration: underline;
+}
+
+.video-section {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  opacity: 0.5;
+  /* min-height: 700px; */
+}
+.vh100 {
+  height: 98vh;
+}
+
+.heading{
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h1{
+  opacity: 0.7;
+  padding: 20px;
+  text-align: center;
+}
+
+.heading h4{
+  font-size: 20px;
+  opacity: 2;
+  pad: 10px;
+  text-align: center;
+}
+
+.hero{
+  background-color: rgb(243, 243, 253);
+  width: 100%;
+  height: 100vh;
+}
+.text h1{
+  padding: 10px;
+}
+.doctors{
+  justify-content: space-around;
+  align-items: center;
+  display: inline-flex;
+  width: 1200px;
+  margin: 30px;
+}
+.doctor , .doctor2,.doctor3{
+  background-color: yellow;
+  height: 250px;
+  width: 300px;
+  border-radius: 10%;
+  
+}
+.img1{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
